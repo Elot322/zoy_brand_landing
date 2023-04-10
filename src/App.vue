@@ -1,30 +1,46 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
+  <div class="app">
+    <h1 style="color:white; margin-bottom: 10px">ZOYBRAND</h1>
+    <div class="action-container">
+      <ActionContainer/>
+    </div>
+    <marquee style="margin-top: 10px; color:white; line-height: 150%;"><h4>Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку!</h4></marquee>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  </div>
+</template>
+<script setup>
+import ActionContainer from './components/ActionContainer.vue';
+</script>
+<style>
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+html {
+  background-image: url(zoy_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.app {
+  text-align: center;
+  align-items: center;     
+  position: absolute;
+  top: 45%;             
+}
+
+
+.action-container {
+  vertical-align: center;
+  align-items: center;
+  padding: 3px;
+  justify-content: center;
+  display: flex;
 }
 </style>
