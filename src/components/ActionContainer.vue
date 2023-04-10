@@ -32,7 +32,8 @@ function onWhatsAppClick() {
 </script>
 
 <style>
-.button {
+@media screen {
+    .button {
     width: 160px;
     height: 50px;
     background-color: gray;
@@ -56,6 +57,7 @@ function onWhatsAppClick() {
 .row1 {
     margin-bottom: 5px;
 }
-
+   
+}
 </style>
 
