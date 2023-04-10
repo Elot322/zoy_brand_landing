@@ -21,7 +21,7 @@ import ActionContainer from './components/ActionContainer.vue';
 }
 
 html {
-  background-image: url(./zoy_background.jpg);
+  background-image: url(./assets/zoy_background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
