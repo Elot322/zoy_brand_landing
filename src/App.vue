@@ -56,7 +56,7 @@ body{width:100%; overflow-x:hidden}
   text-align:center;
   color:#ffffff;
   padding-top: 10px;
-  animation: text 15s infinite linear;
+  animation: text 20s infinite linear;
   padding-left: 100%;
   white-space: nowrap;
 }
