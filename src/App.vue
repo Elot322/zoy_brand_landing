@@ -50,14 +50,12 @@ body{width:100%; overflow-x:hidden}
 }
 
 .block{
-  height: 90px;
-  width:300px;
+  width:100%;
   margin:0 auto;
-  background: #343436;
 }
 .block p{
   text-align:center;
-  color:#fff;
+  color:#ffffff;
   padding-top: 35px;
   animation: text 5s infinite linear;
   padding-left: 100%;
