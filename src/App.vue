@@ -4,7 +4,7 @@
     <div class="action-container">
       <ActionContainer/>
     </div>
-    <marquee style="margin-top: 10px; color:white; line-height: 100%;"><h4>Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку!</h4></marquee>
+    <marquee class="run-text"><h4>Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку!</h4></marquee>
 
   </div>
 </template>
@@ -36,6 +36,10 @@ body{width:100%; overflow-x:hidden}
   margin-top: 55%;             
 }
 
+.run-text {
+  margin-top: 10px;
+  color:white;
+}
 
 .action-container {
   vertical-align: center;
