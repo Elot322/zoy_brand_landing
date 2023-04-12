@@ -51,13 +51,12 @@ body{width:100%; overflow-x:hidden}
 
 .block{
   width:100%;
-  margin:0 auto;
 }
 .block h4{
   text-align:center;
   color:#ffffff;
   padding-top: 35px;
-  animation: text 5s infinite linear;
+  animation: text 10s infinite linear;
   padding-left: 100%;
   white-space: nowrap;
 }
