@@ -55,8 +55,8 @@ body{width:100%; overflow-x:hidden}
 .block h4{
   text-align:center;
   color:#ffffff;
-  padding-top: 35px;
-  animation: text 10s infinite linear;
+  padding-top: 10px;
+  animation: text 15s infinite linear;
   padding-left: 100%;
   white-space: nowrap;
 }
