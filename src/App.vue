@@ -53,7 +53,7 @@ body{width:100%; overflow-x:hidden}
   width:100%;
   margin:0 auto;
 }
-.block p{
+.block h4{
   text-align:center;
   color:#ffffff;
   padding-top: 35px;
