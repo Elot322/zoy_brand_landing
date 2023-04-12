@@ -28,6 +28,8 @@ html {
   background-size: cover;
 }
 
+body{width:100%; overflow-x:hidden}
+
 .app {
   text-align: center;
   align-items: center;     
