@@ -31,8 +31,7 @@ html {
 .app {
   text-align: center;
   align-items: center;     
-  position: absolute;
-  top: 45%;             
+  margin-top: 55%;             
 }
 
 
@@ -41,6 +40,6 @@ html {
   align-items: center;
   padding: 3px;
   justify-content: center;
-  display: flex;
+  display: inline-block;
 }
 </style>
