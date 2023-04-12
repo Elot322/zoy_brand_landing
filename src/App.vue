@@ -4,7 +4,7 @@
     <div class="action-container">
       <ActionContainer/>
     </div>
-    <marquee class="run-text"><h4>Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку! Подпишишсь на нас и получи скидку на первую покупку!</h4></marquee>
+    <marquee class="block"><h4>Рады знакомству! Чтобы мы могли лучше узнать друг друга - вступай в ряды наших подписчиков, отправь в директ сообщение «20%» и в ответ получишь промокод на первую скидку!</h4></marquee>
 
   </div>
 </template>
@@ -47,5 +47,30 @@ body{width:100%; overflow-x:hidden}
   padding: 3px;
   justify-content: center;
   display: inline-block;
+}
+
+.block{
+  height: 90px;
+  width:300px;
+  margin:0 auto;
+  background: #343436;
+}
+.block p{
+  text-align:center;
+  color:#fff;
+  text-transform: uppercase;
+  padding-top: 35px;
+  animation: text 5s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+@keyframes text {
+  0%{
+    transform: translate(0, 0);
+  }
+  
+  100%{
+    transform: translate(-160%, 0);
+  }
 }
 </style>
