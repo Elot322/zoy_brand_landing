@@ -58,7 +58,6 @@ body{width:100%; overflow-x:hidden}
 .block p{
   text-align:center;
   color:#fff;
-  text-transform: uppercase;
   padding-top: 35px;
   animation: text 5s infinite linear;
   padding-left: 100%;
