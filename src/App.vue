@@ -28,7 +28,7 @@ html {
   background-size: cover;
 }
 
-body{width:100%; overflow-x:hidden}
+body{width:100%; overflow-x:hidden; color:white}
 
 .app {
   text-align: center;
