@@ -15,7 +15,7 @@
 
 function onLookBookClick() {
     //TODO: Сделать презу
-    window.open('./assets/zoybrand.pdf', '_blank', 'fullscreen=yes')
+    window.open('./assets/zoybrand.pdf', '_blank')
 }
 
 function onSiteClick() {
