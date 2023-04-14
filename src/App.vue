@@ -4,7 +4,7 @@
     <div class="action-container">
       <ActionContainer/>
     </div>
-    <div class="block"><h4>Говорят, если стать нашим подписчиком и отправить в директ сообщение «20%», в ответ придёт промокод на скидку!</h4></div>
+    <h4>Говорят, если стать нашим подписчиком и отправить в директ сообщение «20%», в ответ придёт промокод на скидку!</h4>
 
   </div>
 </template>
@@ -47,26 +47,5 @@ body{width:100%; overflow-x:hidden}
   padding: 3px;
   justify-content: center;
   display: inline-block;
-}
-
-.block{
-  width:100%;
-}
-.block h4{
-  text-align:center;
-  color:#ffffff;
-  padding-top: 10px;
-  animation: text 20s infinite linear;
-  padding-left: 100%;
-  white-space: nowrap;
-}
-@keyframes text {
-  0%{
-    transform: translate(0, 0);
-  }
-  
-  100%{
-    transform: translate(-140%, 0);
-  }
 }
 </style>
