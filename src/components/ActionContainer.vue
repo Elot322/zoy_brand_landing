@@ -15,7 +15,7 @@
 
 function onLookBookClick() {
     //TODO: Сделать презу
-    window.open('https://www.google.ru/')
+    window.open('./assets/zoybrand.pdf', '_blank', 'fullscreen=yes')
 }
 
 function onSiteClick() {
