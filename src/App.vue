@@ -66,7 +66,7 @@ body{width:100%; overflow-x:hidden}
   }
   
   100%{
-    transform: translate(-160%, 0);
+    transform: translate(-140%, 0);
   }
 }
 </style>
