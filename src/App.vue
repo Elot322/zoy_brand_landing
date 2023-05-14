@@ -28,7 +28,7 @@ html {
 
 body{width:100%; overflow-x:hidden; color:white}
 
-@media (min-width: 576px) {
+@media (min-width: 350px) {
   .app {
     text-align: center;
     align-items: center;     
@@ -43,6 +43,7 @@ body{width:100%; overflow-x:hidden; color:white}
     margin-top: 20%;             
   }
 }
+
 
 .action-container {
   vertical-align: center;
