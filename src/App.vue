@@ -4,8 +4,6 @@
     <div class="action-container">
       <ActionContainer/>
     </div>
-    <h4 style="margin-top: 35px;">Говорят, если стать нашим подписчиком и отправить в директ сообщение «20%», в ответ придёт промокод на скидку</h4>
-
   </div>
 </template>
 <script setup>
@@ -30,15 +28,20 @@ html {
 
 body{width:100%; overflow-x:hidden; color:white}
 
-.app {
-  text-align: center;
-  align-items: center;     
-  margin-top: 55%;             
+@media (min-width: 576px) {
+  .app {
+    text-align: center;
+    align-items: center;     
+    margin-top: 55%;             
+  }
 }
 
-.run-text {
-  margin-top: 10px;
-  color:white;
+@media (min-width: 1200px) {
+  .app {
+    text-align: center;
+    align-items: center;     
+    margin-top: 20%;             
+  }
 }
 
 .action-container {
